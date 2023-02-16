@@ -1,0 +1,30 @@
+{
+  "name": "organigramme",
+  "version": "1.0.0",
+  "description": "Employee database that records employee departments and roles within a company.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miacias/organigramme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miacias/organigramme/issues"
+  },
+  "homepage": "https://github.com/miacias/organigramme#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.18.2",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
