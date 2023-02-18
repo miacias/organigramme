@@ -1,3 +1,3 @@
-INSERT INTO departments (dept_name, dept_id)
-VALUES
-();
+-- INSERT INTO departments (dept_name, dept_id)
+-- VALUES
+-- ();

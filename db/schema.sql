@@ -6,14 +6,14 @@ CREATE DATABASE company_db;
 USE company_db;
 
 -- define departments
-CREATE TABLE departments (
+CREATE TABLE IF NOT EXISTS departments (
     id INT NOT NULL AUTO_INCREMENT,
     dept_name VARCHAR(100) NOT NULL,
     PRIMARY KEY (id) -- set primary
 );
 
 -- define roles
-CREATE TABLE roles (
+CREATE TABLE IF NOT EXISTS roles (
     id INT NOT NULL AUTO_INCREMENT,
     title VARCHAR(100) NOT NULL,
     salary INT NOT NULL,
@@ -25,7 +25,7 @@ CREATE TABLE roles (
 );
 
 -- define employees
-CREATE TABLE employees (
+CREATE TABLE IF NOT EXISTS employees (
     id INT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(40) NOT NULL,
     last_name VARCHAR(40) NOT NULL,
