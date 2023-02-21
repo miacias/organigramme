@@ -29,6 +29,10 @@ CREATE TABLE IF NOT EXISTS employees (
     id INT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(40) NOT NULL,
     last_name VARCHAR(40) NOT NULL,
+    dept_id INT, -- import role_id from departments table
+    FOREIGN KEY (dept_id)
+    REFERENCES departments(id)
+    ON DELETE SET NULL,
     role_id INT, -- import role_id from roles table
     FOREIGN KEY (role_id)
     REFERENCES roles(id)
