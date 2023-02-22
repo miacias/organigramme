@@ -23,22 +23,22 @@ VALUES  ("Digital Content Producer", 60000, 3), -- 1
         ("Paralegal", 100000, 7), -- 13
         ("Engineering Team Lead", 160000, 2); -- 14
        
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
-VALUES  ("Olivia", "Colomar", 14, null), -- 1
-        ("Vivian", "Chase", 10, null), -- 2
-        ("Moira", "O'Deorain", 11, null), -- 3
-        ("Satya", "Vaswani", 12, null), -- 4
-        ("Torbjörn", "Lindholm", 5, null), -- 5
-        ("Lena", "Oxton", 7, null), -- 6
-        ("Fareeha", "Amari", 8, 1), -- 7
-        ("Winston", "Overwatch", 2, 1), -- 8
-        ("Amélie", "Lacroix", 13, 4), -- 8
-        ("Jean-Baptiste", "Augustin", 9, 2), -- 9
-        ("Kiriko", "Kamori", 1, 6), -- 10
-        ("Lúcio", "Correia dos Santos", 1, 7),
-        ("Angela", "Ziegler", 3, 1),
-        ("Tekhartha", "Zenyatta", 4, 1),
-        ("Hana", "Song", 1, 6),
-        ("Akande", "Ogundimu", 9, 2),
-        ("Odessa", "Stone", 13, 4),
-        ("Mako", "Rutledge", 4, 1);
+INSERT INTO employees (first_name, last_name, dept_id, role_id, manager_id)
+VALUES  ("Olivia", "Colomar", 2, 14, null), -- 1
+        ("Vivian", "Chase", 5, 10, null), -- 2
+        ("Moira", "O'Deorain", 6, 11, null), -- 3
+        ("Satya", "Vaswani", 7, 12, null), -- 4
+        ("Torbjörn", "Lindholm", 4, 5, null), -- 5
+        ("Lena", "Oxton", 1, 7, null), -- 6
+        ("Fareeha", "Amari", 3, 8, 1), -- 7
+        ("Winston", "Overwatch", 2, 2, 1), -- 8
+        ("Amélie", "Lacroix", 7, 13, 4), -- 8
+        ("Jean-Baptiste", "Augustin", 5, 9, 2), -- 9
+        ("Kiriko", "Kamori", 3, 1, 6), -- 10
+        ("Lúcio", "Correia dos Santos", 3, 1, 7),
+        ("Angela", "Ziegler", 2, 3, 1),
+        ("Tekhartha", "Zenyatta", 2, 4, 1),
+        ("Hana", "Song", 3, 1, 6),
+        ("Akande", "Ogundimu", 5, 9, 2),
+        ("Odessa", "Stone", 7, 13, 4),
+        ("Mako", "Rutledge", 2, 4, 1);
