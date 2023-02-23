@@ -29,7 +29,7 @@ VALUES  ("Olivia", "Colomar", 2, 14, null), -- 1
         ("Moira", "O'Deorain", 6, 11, null), -- 3
         ("Satya", "Vaswani", 7, 12, null), -- 4
         ("Torbjörn", "Lindholm", 4, 5, null), -- 5
-        ("Lena", "Oxton", 1, 7, null), -- 6
+        ("Lena", "Oxton", 1, 7, null), -- 6 lead artist
         ("Fareeha", "Amari", 3, 8, null), -- 7
         ("Winston", "Overwatch", 2, 2, 1), -- 8
         ("Amélie", "Lacroix", 7, 13, 4), -- 8
