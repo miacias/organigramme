@@ -1,19 +1,23 @@
 # Organigramme
+
 Employee database that records working departments and roles along with employee records and chains of command within a company.
 
 
 ## Description
 
-  As a personal business grows in size and new employees join as stakeholders, the collective company becomes more intricate and complicated. Oftentimes, modern companies, especially start-ups, grow exponentially quickly, and managing each employee can become difficult. In larger, more established companies, employee management can be equally difficult when working with teams abroad or with third-party contractors from all over. This project aims to provide a database-solution to keeping track of all stakeholders of a given business, from managers to non-managers across all departments and roles. I learned that querying a database via MySQL must have perfect syntax, as MySQL is a very unforgiving language. Database languages in general are extremely powerful and can deftly adjust and display information with just the right type of table joins. This first experiment with MySQL allows for room for growth in honing queries and returned values so that the database can be managed even more effectively.
+As a personal business grows in size and new employees join as stakeholders, the collective company becomes more intricate and complicated. Oftentimes, modern companies, especially start-ups, grow exponentially quickly, and managing each employee can become difficult. In larger, more established companies, employee management can be equally difficult when working with teams abroad or with third-party contractors from all over. This project aims to provide a database-solution to keeping track of all stakeholders of a given business, from managers to non-managers across all departments and roles. 
+
+I learned that querying a database via MySQL must have perfect syntax, as MySQL is a very unforgiving language. Database languages in general are extremely powerful and can deftly adjust and display information with just the right type of table joins. This first experiment with MySQL allows for room for growth in honing queries and returned values so that the database can be managed even more effectively.
 
 
 ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [Tests](#tests)
-  - [Contact](#contact)
-  - [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [Contact](#contact)
+- [Credits](#credits)
+- [License](#license)
 
 
 ## Installation
@@ -47,10 +51,42 @@ Testing not provided at this time.
   - creator: [miacias](https://github.com/miacias)
   - email: [miaciasullo@gmail.com](mailto:miaciasullo@gmail.com)
 
+
 ## Credits
 
-Tutorials referenced 
+Documentation referenced:
+
+- Mozilla Developer Network (MDN)
+- Stack Overflow Forums
+- MySQL2 node package
+- Inquirer node package
+- Figlet node package
+
+Tutorials referenced:
+
 - [Currency RegEx](https://stackoverflow.com/questions/354044/what-is-the-best-u-s-currency-regex)
+
+Tools used:
+
+- [VS Code](https://code.visualstudio.com/)
+- Node.js
+
+Tutor(s): 
+
+- [Alexis San Javier](https://github.com/code-guy21) - database queries with a focus on different types of `JOIN` table merges
+
+U. Penn Bootcamp instructor(s): 
+
+- [Dan Gross](https://github.com/DanielWGross)
+- [Andrew Hojnowski](https://github.com/aHojo)
+- [C. Ross King](https://github.com/RomeoKilo125/)
+
+U. Penn Bootcamp study groups:
+
+- [Alex Weiss](https://github.com/alexander1262)
+- [Fredrick Chang](https://github.com/LearnedDr)
+- [Josh Eflin](https://github.com/JoshEflin)
+- [Franklyn Suriel](https://github.com/FranklynSuriel)
 
 ## License
   
