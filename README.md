@@ -33,7 +33,7 @@ To run this interface, please clone this repository locally to your machine.
 1. After initializing with `node index.js`, a Main Menu will guide you through.
 2. Select an action, then be sure to respond to each prompt until you receive a notification that your action has been completed, whether it is a table that prints for your review or a confirmation message. 
 
-[See demonstration of how it works here!]()
+[See demonstration of how it works here!](https://youtu.be/m7Yb1lTaAYo)
 
 
 ## Contribution
