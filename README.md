@@ -69,11 +69,13 @@ Tutorials referenced:
 Tools used:
 
 - [VS Code](https://code.visualstudio.com/)
-- Node.js
+- [Node.js](https://nodejs.org/en/)
+- [MySQL](https://www.mysql.com/)
 
 Tutor(s): 
 
 - [Alexis San Javier](https://github.com/code-guy21) - database queries with a focus on different types of `JOIN` table merges
+- [David Gaither](https://github.com/Gaitherdb) - deleting from databases and related properties: `not null`, `on delete set null`, `cascade`
 
 U. Penn Bootcamp instructor(s): 
 
